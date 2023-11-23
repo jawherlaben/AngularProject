@@ -1,0 +1,26 @@
+<div [style.background-color]="parentBackgroundColor">
+    <h1> Couleur INPUT </h1>
+    <app-color-changer> </app-color-changer>
+
+    <h1> Carte visit </h1>
+    <app-carte-visite> </app-carte-visite>
+
+    <H1> Composant Enfant </H1>
+    <app-fils [backgroundColor]="parentBackgroundColor" (colorChange)="onColorChange($event)"> </app-fils>
+
+    <h1>  Mini Word pour gérer un paragraphe en utilisant ngStyle </h1>
+    <app-editor> </app-editor>
+    
+
+    <h1> App Default Image (PIPE) </h1>
+    <app-default-image> </app-default-image>
+
+    <h1> INPUT </h1>
+    <app-ng-style> </app-ng-style>
+
+    <h1> Arc Ciel </h1>
+    <app-arc-ciel> </app-arc-ciel>
+    
+    <h1> Mini plateforme de Recrutemen</h1>
+    <app-cv></app-cv>
+</div>
